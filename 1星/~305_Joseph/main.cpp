@@ -7,7 +7,7 @@ int main() {
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
 
-    int intput = 0;
+    int input = 0;
     vector<int> test_case(14, 0);
 
     for (int k = 1; k <= 14; k++) {
@@ -31,8 +31,8 @@ int main() {
             m++;
         }
     }
-    while (cin >> intput && intput) {
-        cout << test_case[intput - 1] << endl;
+    while (cin >> input && input) {
+        cout << test_case[input - 1] << endl;
     }
 
     fclose(stdin);
